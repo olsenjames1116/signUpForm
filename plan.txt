@@ -27,7 +27,7 @@ Steps:
 //Display required input type text with a label of first name
 //Display required input type text with a label of last name
 //Display required input type email with a label of email
-//Display input type text with a label of phone number
+//Display input type tel with a label of phone number
 //Display required input type password with a label of password
 //Display required input type password with a label of confirm password
 //Display a submit button
