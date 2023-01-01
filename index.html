@@ -9,7 +9,7 @@
     <body>
         <form action="" method="post">
             <p>All required fields marked with * are required</p>
-            
+
             <label for="firstName">First Name *</label>
             <input type="text" id="firstName" name="firstName" required>
 
@@ -20,7 +20,7 @@
             <input type="email" id="userEmail" name="userEmail" required>
 
             <label for="phoneNumber">Phone Number</label>
-            <input type="tel" id="phoneNumber" name="phoneNumber">
+            <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please input a valid telephone number with dashes, ex: 123-456-7890">
 
             <label for="password">Password *</label>
             <input type="password" id="password" name="password" required>

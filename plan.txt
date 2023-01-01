@@ -31,8 +31,6 @@ Steps:
 //Display required input type password with a label of password
 //Display required input type password with a label of confirm password
 //Display a submit button
-//Validate first name is over minlength of 0
-//Validate last name is over minlength of 0
 //Validate phone number matches pattern of phone number
 //Validate passwords match
 //Display a message if the passwords do not match
