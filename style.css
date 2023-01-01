@@ -3,8 +3,15 @@ html{
     background-size: cover;
 }
 
+body{
+    margin: 0;
+    display: flex;
+}
+
 form{
     background-color: white;
+    height: 100vh;
+    max-width: 50vh;
 }
 
 input:focus:valid{
@@ -13,4 +20,19 @@ input:focus:valid{
 
 input:focus:invalid{
     background-color: rgb(229, 155, 155);
+}
+
+footer{
+    background-color: rgb(40, 40, 87);
+    flex-grow: 1;
+    height: 1rem;
+    white-space: pre;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
