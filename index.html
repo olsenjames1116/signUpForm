@@ -10,24 +10,36 @@
         <form action="" method="post" onsubmit="return checkPasswordsMatch();">
             <p>All required fields marked with * are required</p>
 
-            <label for="firstName">First Name *</label>
-            <input type="text" id="firstName" name="firstName" required>
+            <div class="input">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
 
-            <label for="lastName">Last Name *</label>
-            <input type="text" id="lastName" name="lastName" required>
+            <div class="input">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
 
-            <label for="userEmail">Email *</label>
-            <input type="email" id="userEmail" name="userEmail" required>
+            <div class="input">
+                <label for="userEmail">Email *</label>
+                <input type="email" id="userEmail" name="userEmail" required>
+            </div>
 
-            <label for="phoneNumber">Phone Number</label>
-            <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please input a valid telephone number with dashes, ex: 123-456-7890">
+            <div class="input">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please input a valid telephone number with dashes, ex: 123-456-7890">
+            </div>
 
-            <label for="password">Password *</label>
-            <input type="password" id="password" name="password" required>
-            <p></p>
+            <div class="input">
+                <label for="password">Password *</label>
+                <input type="password" id="password" name="password" required>
+                <p></p>
+            </div>
 
-            <label for="confirmPassword">Confirm Password *</label>
-            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            <div class="input">
+                <label for="confirmPassword">Confirm Password *</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
 
             <button type="submit">Create Account</button>
         </form>

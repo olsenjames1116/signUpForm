@@ -1,7 +1,7 @@
 const submitButton = document.querySelector('button[type="submit"]');
 const password = document.querySelector('input#password');
 const confirmPassword = document.querySelector('input#confirmPassword');
-const matchError = document.querySelector('input+p')
+const matchError = document.querySelector('input#password+p')
 
 console.log(password.value);
 console.log(confirmPassword.value);
