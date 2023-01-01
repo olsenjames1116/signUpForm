@@ -25,6 +25,22 @@ form div:nth-child(even){
     margin-right: 5px;
 }
 
+div.leftContainer{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+div.logoContainer{
+    background-color: rgba(0, 0, 0, 0.492);
+    margin-top: 20vh;
+    height: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 input:focus:valid{
     background-color: rgb(155, 229, 155);
 }
@@ -35,7 +51,8 @@ input:focus:invalid{
 
 footer{
     background-color: rgb(40, 40, 87);
-    flex-grow: 1;
+    margin-top: auto;
+    width: 50vw;
     height: 1rem;
     white-space: pre;
     align-self: flex-end;
