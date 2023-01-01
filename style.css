@@ -3,6 +3,10 @@ html{
     background-size: cover;
 }
 
+form{
+    background-color: white;
+}
+
 input:focus:valid{
     background-color: rgb(155, 229, 155);
 }
