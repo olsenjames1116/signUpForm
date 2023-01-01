@@ -1,12 +1,48 @@
 Understanding the problem:
-
+    The goal of this project is to create a sign-up page. In this page, form controls and client-side validation
+    will be used to allow a user to fill out a dummy sign-up form. This form will not be sent to a server and is
+    meant to practice newly learned form validation and markup skills.
 
 Plan
 -------
 Does your program have a user interface? What will it look like? What functionality will the interface have?
-
+    Yes. The interface will be on the browser as a form. It will have labels above the input fields as well as
+    placeholder text to show the user the desired input. Invalid inputs will be displayed with red background and
+    valid inputs will be displayed with a green background. The user will be able to submit their form with a submit
+    button. 
 What inputs will your program have? Will the user enter data or will you get input from somewhere else?
-
+    The program will take in first and last name, email, phone number and a password. The user will have to provide
+    this information manually.
 What's the desired input?
-
+    Desired input would be a valid first and last name (length greater than 0), a valid email (based on type email),
+    a valid phone number (based on pattern validation) and matching passwords.
 Given your inputs, what are the steps necessary to return the desired output?
+    1. Validate there is some input in the first name field
+    2. Validate there is some input in the last name field
+    3. Validate the email field has an input of type email
+    4. Validate the phone number field matches the pattern for a phone number
+    5. Validate the passwords match each other
+
+Steps: 
+//Display required input type text with a label of first name
+//Display required input type text with a label of last name
+//Display required input type email with a label of email
+//Display input type text with a label of phone number
+//Display required input type password with a label of password
+//Display required input type password with a label of confirm password
+//Display a submit button
+//Validate first name is over minlength of 0
+//Validate last name is over minlength of 0
+//Validate phone number matches pattern of phone number
+//Validate passwords match
+//Display a message if the passwords do not match
+//Format valid inputs to have a green background in the input field
+//Format invalid inputs to have a red background in the input field
+//Display a background image
+//Format sign up form to have a white background over the background image
+//Format labels to appear over input
+//Display a light div over background image to hold text
+//Display text in div over background image
+//Display a logo next to text in div over background image
+//Display photo credit over the background image
+//Display author credit in a footer
