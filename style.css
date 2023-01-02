@@ -18,11 +18,21 @@ body{
     flex-direction: row-reverse;
 }
 
+div.topRightContainer{
+    padding-left: 1vw;
+    margin-bottom: 50px;
+}
+
 form{
     background-color: white;
     height: 100vh;
     width: 50vw;
-    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+form>h1, h1+p, p+p{
+    margin-bottom: 10vh;
 }
 
 input, label{
@@ -31,7 +41,16 @@ input, label{
 
 form div:nth-child(odd){
     float: left;
-    margin-right: 5px;
+    margin-right: 1vw;
+}
+
+input#password+p{
+    margin: 0;
+}
+
+div.buttonContainer{
+    flex-grow: 1;
+    background-color: rgb(226, 222, 222);
 }
 
 div.leftContainer{
