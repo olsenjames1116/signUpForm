@@ -84,6 +84,12 @@ div.logoContainer{
     font-weight: bold;
 }
 
+img{
+    height: 100%;
+    width: auto;
+    padding-right: 5px;
+}
+
 div.logoContainer{
     background-color: rgba(0, 0, 0, 0.492);
     margin-top: 20vh;
