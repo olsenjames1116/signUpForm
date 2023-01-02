@@ -20,7 +20,7 @@ body{
 
 div.topRightContainer{
     padding-left: 1vw;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 form{
@@ -45,12 +45,25 @@ form div:nth-child(odd){
 }
 
 input#password+p{
+    height: 1rem;
     margin: 0;
 }
 
 div.buttonContainer{
     flex-grow: 1;
-    background-color: rgb(226, 222, 222);
+    background-color: rgb(237, 234, 234);
+    padding-top: 5vh;
+    padding-left: 1vw;
+}
+
+button{
+    font-family: 'meromSans';
+    background-color: rgb(185, 33, 33);
+    color: rgb(236, 203, 16);
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 1rem;
 }
 
 div.leftContainer{
