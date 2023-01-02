@@ -9,7 +9,7 @@
 html{
     background: url('./images/background.jpg') no-repeat center center fixed;
     background-size: cover;
-    font-family: 'meromSans';
+    font-family: 'meromSans', sans-serif;
 }
 
 body{
@@ -29,7 +29,7 @@ input, label{
     display: block;
 }
 
-form div:nth-child(even){
+form div:nth-child(odd){
     float: left;
     margin-right: 5px;
 }
