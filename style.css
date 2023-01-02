@@ -100,6 +100,10 @@ div.logoContainer{
     align-items: center;
 }
 
+input:focus{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
 input:focus:valid{
     background-color: rgb(155, 229, 155);
 }
